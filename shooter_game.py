@@ -8,7 +8,7 @@ display.set_caption('Shooter Game')
 background = transform.scale(image.load('galaxy.jpg'), (900, 900))
 mixer.init()
 mixer.music.load('space.ogg')
-#mixer.music.play()
+mixer.music.play()
 fire_s = mixer.Sound('fire.ogg')
 
 font.init()
